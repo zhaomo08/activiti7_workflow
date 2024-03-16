@@ -1,0 +1,194 @@
+2024-03-16 12:20:58.059  INFO 25319 --- [main] c.i.activitiweb.Part3_ProcessInstance    : Starting Part3_ProcessInstance on Chester-Mac-mini.local with PID 25319 (started by zhao in /Users/zhao/Project/IdeaProjects/activiti7_workflow)
+2024-03-16 12:20:58.063  INFO 25319 --- [main] c.i.activitiweb.Part3_ProcessInstance    : No active profile set, falling back to default profiles: default
+2024-03-16 12:20:59.101  INFO 25319 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:20:59.121  INFO 25319 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:20:59.122  INFO 25319 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@4b3ad7ca' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:20:59.126  INFO 25319 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$439e54c7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:20:59.133  INFO 25319 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:20:59.136  INFO 25319 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:20:59.138  INFO 25319 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:20:59.383  INFO 25319 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-16 12:20:59.631  INFO 25319 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : Found 1 Process Engine Configurators in total:
+2024-03-16 12:20:59.632  INFO 25319 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$227bda82 (priority:10000)
+2024-03-16 12:20:59.632  INFO 25319 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : Executing beforeInit() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$227bda82 (priority:10000)
+2024-03-16 12:20:59.646  INFO 25319 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-16 12:21:00.033  INFO 25319 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-16 12:21:00.525  INFO 25319 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : Executing configure() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$227bda82 (priority:10000)
+2024-03-16 12:21:00.565  INFO 25319 --- [main] o.a.engine.impl.ProcessEngineImpl        : ProcessEngine default created
+2024-03-16 12:21:00.566  INFO 25319 --- [main] o.a.e.i.a.DefaultAsyncJobExecutor        : Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2024-03-16 12:21:00.566  INFO 25319 --- [Thread-2] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : {} starting to acquire async jobs due
+2024-03-16 12:21:00.566  INFO 25319 --- [Thread-3] o.a.e.i.a.AcquireTimerJobsRunnable       : {} starting to acquire async jobs due
+2024-03-16 12:21:00.567  INFO 25319 --- [Thread-4] o.a.e.i.a.ResetExpiredJobsRunnable       : {} starting to reset expired jobs
+2024-03-16 12:21:01.263  INFO 25319 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-03-16 12:21:01.378  INFO 25319 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-16 12:21:01.697  INFO 25319 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [resources/index.html]
+2024-03-16 12:21:02.108  INFO 25319 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@347f8029, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a1f22f2, org.springframework.security.web.header.HeaderWriterFilter@6f5288c5, org.springframework.security.web.authentication.logout.LogoutFilter@3fc051ce, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@180fb796, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4e782401, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5d035ab6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3f78a5ed, org.springframework.security.web.session.SessionManagementFilter@e2ee348, org.springframework.security.web.access.ExceptionTranslationFilter@1a05ff8e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@267b678f]
+2024-03-16 12:21:02.185  INFO 25319 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-03-16 12:21:02.197  INFO 25319 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-03-16 12:21:02.220  INFO 25319 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-03-16 12:21:02.344  INFO 25319 --- [main] c.i.activitiweb.Part3_ProcessInstance    : Started Part3_ProcessInstance in 4.606 seconds (JVM running for 5.29)
+2024-03-16 12:21:02.712  INFO 25319 --- [SpringContextShutdownHook] o.a.e.i.a.DefaultAsyncJobExecutor        : Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2024-03-16 12:21:02.713  INFO 25319 --- [activiti-acquire-async-jobs] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : {} stopped async job due acquisition
+2024-03-16 12:21:02.713  INFO 25319 --- [activiti-reset-expired-jobs] o.a.e.i.a.ResetExpiredJobsRunnable       : {} stopped resetting expired jobs
+2024-03-16 12:21:02.719  INFO 25319 --- [activiti-acquire-timer-jobs] o.a.e.i.a.AcquireTimerJobsRunnable       : {} stopped async job due acquisition
+2024-03-16 12:21:02.720  INFO 25319 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-16 12:21:02.721  INFO 25319 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-16 12:21:02.727  INFO 25319 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-16 12:25:47.067  INFO 27821 --- [main] c.i.activitiweb.Part3_ProcessInstance    : Starting Part3_ProcessInstance on Chester-Mac-mini.local with PID 27821 (started by zhao in /Users/zhao/Project/IdeaProjects/activiti7_workflow)
+2024-03-16 12:25:47.068  INFO 27821 --- [main] c.i.activitiweb.Part3_ProcessInstance    : No active profile set, falling back to default profiles: default
+2024-03-16 12:25:48.074  INFO 27821 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:25:48.095  INFO 27821 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:25:48.096  INFO 27821 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@745926c3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:25:48.100  INFO 27821 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$c4ecbe4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:25:48.107  INFO 27821 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:25:48.109  INFO 27821 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:25:48.111  INFO 27821 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:25:48.351  INFO 27821 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-16 12:25:48.629  INFO 27821 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : Found 1 Process Engine Configurators in total:
+2024-03-16 12:25:48.630  INFO 27821 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$a3ca4406 (priority:10000)
+2024-03-16 12:25:48.630  INFO 27821 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : Executing beforeInit() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$a3ca4406 (priority:10000)
+2024-03-16 12:25:48.644  INFO 27821 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-16 12:25:48.986  INFO 27821 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-16 12:25:49.485  INFO 27821 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : Executing configure() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$a3ca4406 (priority:10000)
+2024-03-16 12:25:49.524  INFO 27821 --- [main] o.a.engine.impl.ProcessEngineImpl        : ProcessEngine default created
+2024-03-16 12:25:49.524  INFO 27821 --- [main] o.a.e.i.a.DefaultAsyncJobExecutor        : Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2024-03-16 12:25:49.525  INFO 27821 --- [Thread-4] o.a.e.i.a.ResetExpiredJobsRunnable       : {} starting to reset expired jobs
+2024-03-16 12:25:49.525  INFO 27821 --- [Thread-3] o.a.e.i.a.AcquireTimerJobsRunnable       : {} starting to acquire async jobs due
+2024-03-16 12:25:49.525  INFO 27821 --- [Thread-2] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : {} starting to acquire async jobs due
+2024-03-16 12:25:50.078  INFO 27821 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-03-16 12:25:50.200  INFO 27821 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-16 12:25:50.489  INFO 27821 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [resources/index.html]
+2024-03-16 12:25:50.918  INFO 27821 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@633cad4d, org.springframework.security.web.context.SecurityContextPersistenceFilter@45c28c49, org.springframework.security.web.header.HeaderWriterFilter@7d7f966f, org.springframework.security.web.authentication.logout.LogoutFilter@37b5a51c, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@52d434c1, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@23ee92df, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1e4a4ed5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@15c3585, org.springframework.security.web.session.SessionManagementFilter@4113d9ab, org.springframework.security.web.access.ExceptionTranslationFilter@237ee2e1, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@270be080]
+2024-03-16 12:25:50.982  INFO 27821 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-03-16 12:25:51.004  INFO 27821 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-03-16 12:25:51.036  INFO 27821 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-03-16 12:25:51.237  INFO 27821 --- [main] c.i.activitiweb.Part3_ProcessInstance    : Started Part3_ProcessInstance in 4.539 seconds (JVM running for 5.126)
+2024-03-16 12:25:51.628 ERROR 27821 --- [main] o.a.e.impl.interceptor.CommandContext    : Error while closing command context
+
+org.activiti.engine.ActivitiException: Cannot set suspension state 'active' for ProcessInstance[3cb4391b-e2c6-11ee-9a1c-2a1f65209733]': already in state 'active'.
+	at org.activiti.engine.impl.persistence.entity.SuspensionState$SuspensionStateUtil.setSuspensionState(SuspensionState.java:92)
+	at org.activiti.engine.impl.cmd.AbstractSetProcessInstanceStateCmd.execute(AbstractSetProcessInstanceStateCmd.java:59)
+	at org.activiti.engine.impl.cmd.AbstractSetProcessInstanceStateCmd.execute(AbstractSetProcessInstanceStateCmd.java:36)
+	at org.activiti.engine.impl.interceptor.CommandInvoker$1.run(CommandInvoker.java:37)
+	at org.activiti.engine.impl.interceptor.CommandInvoker.executeOperation(CommandInvoker.java:78)
+	at org.activiti.engine.impl.interceptor.CommandInvoker.executeOperations(CommandInvoker.java:57)
+	at org.activiti.engine.impl.interceptor.CommandInvoker.execute(CommandInvoker.java:42)
+	at org.activiti.engine.impl.interceptor.TransactionContextInterceptor.execute(TransactionContextInterceptor.java:48)
+	at org.activiti.engine.impl.interceptor.CommandContextInterceptor.execute(CommandContextInterceptor.java:59)
+	at org.activiti.spring.SpringTransactionInterceptor$1.doInTransaction(SpringTransactionInterceptor.java:47)
+	at org.springframework.transaction.support.TransactionTemplate.execute(TransactionTemplate.java:140)
+	at org.activiti.spring.SpringTransactionInterceptor.execute(SpringTransactionInterceptor.java:45)
+	at org.activiti.engine.impl.interceptor.LogInterceptor.execute(LogInterceptor.java:29)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:44)
+	at org.activiti.engine.impl.cfg.CommandExecutorImpl.execute(CommandExecutorImpl.java:39)
+	at org.activiti.engine.impl.RuntimeServiceImpl.activateProcessInstanceById(RuntimeServiceImpl.java:388)
+	at com.imooc.activitiweb.Part3_ProcessInstance.activitieProcessInstance(Part3_ProcessInstance.java:50)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.platform.commons.util.ReflectionUtils.invokeMethod(ReflectionUtils.java:675)
+	at org.junit.jupiter.engine.execution.MethodInvocation.proceed(MethodInvocation.java:60)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$ValidatingInvocation.proceed(InvocationInterceptorChain.java:125)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.intercept(TimeoutExtension.java:132)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestableMethod(TimeoutExtension.java:124)
+	at org.junit.jupiter.engine.extension.TimeoutExtension.interceptTestMethod(TimeoutExtension.java:74)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker$ReflectiveInterceptorCall.lambda$ofVoidMethod$0(ExecutableInvoker.java:115)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.lambda$invoke$0(ExecutableInvoker.java:105)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain$InterceptedInvocation.proceed(InvocationInterceptorChain.java:104)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.proceed(InvocationInterceptorChain.java:62)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.chainAndInvoke(InvocationInterceptorChain.java:43)
+	at org.junit.jupiter.engine.execution.InvocationInterceptorChain.invoke(InvocationInterceptorChain.java:35)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:104)
+	at org.junit.jupiter.engine.execution.ExecutableInvoker.invoke(ExecutableInvoker.java:98)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.lambda$invokeTestMethod$6(TestMethodTestDescriptor.java:202)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.invokeTestMethod(TestMethodTestDescriptor.java:198)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:135)
+	at org.junit.jupiter.engine.descriptor.TestMethodTestDescriptor.execute(TestMethodTestDescriptor.java:69)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:135)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at java.util.ArrayList.forEach(ArrayList.java:1259)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.invokeAll(SameThreadHierarchicalTestExecutorService.java:38)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$5(NodeTestTask.java:139)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$7(NodeTestTask.java:125)
+	at org.junit.platform.engine.support.hierarchical.Node.around(Node.java:135)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.lambda$executeRecursively$8(NodeTestTask.java:123)
+	at org.junit.platform.engine.support.hierarchical.ThrowableCollector.execute(ThrowableCollector.java:73)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.executeRecursively(NodeTestTask.java:122)
+	at org.junit.platform.engine.support.hierarchical.NodeTestTask.execute(NodeTestTask.java:80)
+	at org.junit.platform.engine.support.hierarchical.SameThreadHierarchicalTestExecutorService.submit(SameThreadHierarchicalTestExecutorService.java:32)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestExecutor.execute(HierarchicalTestExecutor.java:57)
+	at org.junit.platform.engine.support.hierarchical.HierarchicalTestEngine.execute(HierarchicalTestEngine.java:51)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:229)
+	at org.junit.platform.launcher.core.DefaultLauncher.lambda$execute$6(DefaultLauncher.java:197)
+	at org.junit.platform.launcher.core.DefaultLauncher.withInterceptedStreams(DefaultLauncher.java:211)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:191)
+	at org.junit.platform.launcher.core.DefaultLauncher.execute(DefaultLauncher.java:128)
+	at com.intellij.junit5.JUnit5IdeaTestRunner.startRunnerWithArgs(JUnit5IdeaTestRunner.java:57)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater$1.execute(IdeaTestRunner.java:38)
+	at com.intellij.rt.execution.junit.TestsRepeater.repeat(TestsRepeater.java:11)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:35)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:235)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:54)
+
+2024-03-16 12:25:51.670  INFO 27821 --- [SpringContextShutdownHook] o.a.e.i.a.DefaultAsyncJobExecutor        : Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2024-03-16 12:25:51.670  INFO 27821 --- [activiti-acquire-timer-jobs] o.a.e.i.a.AcquireTimerJobsRunnable       : {} stopped async job due acquisition
+2024-03-16 12:25:51.670  INFO 27821 --- [activiti-acquire-async-jobs] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : {} stopped async job due acquisition
+2024-03-16 12:25:51.670  INFO 27821 --- [activiti-reset-expired-jobs] o.a.e.i.a.ResetExpiredJobsRunnable       : {} stopped resetting expired jobs
+2024-03-16 12:25:51.672  INFO 27821 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-16 12:25:51.672  INFO 27821 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-16 12:25:51.676  INFO 27821 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-03-16 12:27:58.175  INFO 28970 --- [main] c.i.activitiweb.Part3_ProcessInstance    : Starting Part3_ProcessInstance on Chester-Mac-mini.local with PID 28970 (started by zhao in /Users/zhao/Project/IdeaProjects/activiti7_workflow)
+2024-03-16 12:27:58.176  INFO 28970 --- [main] c.i.activitiweb.Part3_ProcessInstance    : No active profile set, falling back to default profiles: default
+2024-03-16 12:27:59.354  INFO 28970 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration' of type [org.springframework.security.config.annotation.configuration.ObjectPostProcessorConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:27:59.377  INFO 28970 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'objectPostProcessor' of type [org.springframework.security.config.annotation.configuration.AutowireBeanFactoryObjectPostProcessor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:27:59.379  INFO 28970 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@745926c3' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:27:59.384  INFO 28970 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityConfig' of type [org.activiti.spring.boot.MethodSecurityConfig$$EnhancerBySpringCGLIB$$c4ecbe4b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:27:59.393  INFO 28970 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration' of type [org.springframework.security.config.annotation.method.configuration.Jsr250MetadataSourceConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:27:59.397  INFO 28970 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'jsr250MethodSecurityMetadataSource' of type [org.springframework.security.access.annotation.Jsr250MethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:27:59.400  INFO 28970 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2024-03-16 12:27:59.661  INFO 28970 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2024-03-16 12:27:59.885  INFO 28970 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : Found 1 Process Engine Configurators in total:
+2024-03-16 12:27:59.886  INFO 28970 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$a3ca4406 (priority:10000)
+2024-03-16 12:27:59.886  INFO 28970 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : Executing beforeInit() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$a3ca4406 (priority:10000)
+2024-03-16 12:27:59.895  INFO 28970 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-03-16 12:28:00.180  INFO 28970 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-03-16 12:28:00.588  INFO 28970 --- [main] o.a.e.i.c.ProcessEngineConfigurationImpl : Executing configure() of class org.activiti.spring.process.conf.ProcessExtensionsConfiguratorAutoConfiguration$$EnhancerBySpringCGLIB$$a3ca4406 (priority:10000)
+2024-03-16 12:28:00.628  INFO 28970 --- [main] o.a.engine.impl.ProcessEngineImpl        : ProcessEngine default created
+2024-03-16 12:28:00.629  INFO 28970 --- [main] o.a.e.i.a.DefaultAsyncJobExecutor        : Starting up the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2024-03-16 12:28:00.630  INFO 28970 --- [Thread-2] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : {} starting to acquire async jobs due
+2024-03-16 12:28:00.630  INFO 28970 --- [Thread-3] o.a.e.i.a.AcquireTimerJobsRunnable       : {} starting to acquire async jobs due
+2024-03-16 12:28:00.637  INFO 28970 --- [Thread-4] o.a.e.i.a.ResetExpiredJobsRunnable       : {} starting to reset expired jobs
+2024-03-16 12:28:01.175  INFO 28970 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2024-03-16 12:28:01.295  INFO 28970 --- [main] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2024-03-16 12:28:01.587  INFO 28970 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [resources/index.html]
+2024-03-16 12:28:01.956  INFO 28970 --- [main] o.s.s.web.DefaultSecurityFilterChain     : Creating filter chain: any request, [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@67baa05, org.springframework.security.web.context.SecurityContextPersistenceFilter@1a05ff8e, org.springframework.security.web.header.HeaderWriterFilter@5644f664, org.springframework.security.web.authentication.logout.LogoutFilter@44e7c06b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@9715d26, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1abea1ed, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@61f08aa9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@5b5a89d1, org.springframework.security.web.session.SessionManagementFilter@27f31d91, org.springframework.security.web.access.ExceptionTranslationFilter@4b1b2255, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c0ab04f]
+2024-03-16 12:28:02.027  INFO 28970 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2024-03-16 12:28:02.040  INFO 28970 --- [main] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2024-03-16 12:28:02.064  INFO 28970 --- [main] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2024-03-16 12:28:02.192  INFO 28970 --- [main] c.i.activitiweb.Part3_ProcessInstance    : Started Part3_ProcessInstance in 4.368 seconds (JVM running for 4.95)
+2024-03-16 12:28:02.443  INFO 28970 --- [SpringContextShutdownHook] o.a.e.i.a.DefaultAsyncJobExecutor        : Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2024-03-16 12:28:02.444  INFO 28970 --- [activiti-reset-expired-jobs] o.a.e.i.a.ResetExpiredJobsRunnable       : {} stopped resetting expired jobs
+2024-03-16 12:28:02.444  INFO 28970 --- [activiti-acquire-async-jobs] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : {} stopped async job due acquisition
+2024-03-16 12:28:02.444  INFO 28970 --- [activiti-acquire-timer-jobs] o.a.e.i.a.AcquireTimerJobsRunnable       : {} stopped async job due acquisition
+2024-03-16 12:28:02.445  INFO 28970 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-16 12:28:02.445  INFO 28970 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-16 12:28:02.450  INFO 28970 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

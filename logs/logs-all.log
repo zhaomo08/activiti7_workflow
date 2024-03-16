@@ -1,0 +1,7 @@
+2024-03-16 12:29:02.363  INFO 19500 --- [SpringContextShutdownHook] o.a.e.i.a.DefaultAsyncJobExecutor        : Shutting down the default async job executor [org.activiti.spring.SpringAsyncExecutor].
+2024-03-16 12:29:02.372  INFO 19500 --- [activiti-acquire-async-jobs] o.a.e.i.a.AcquireAsyncJobsDueRunnable    : {} stopped async job due acquisition
+2024-03-16 12:29:02.372  INFO 19500 --- [activiti-acquire-timer-jobs] o.a.e.i.a.AcquireTimerJobsRunnable       : {} stopped async job due acquisition
+2024-03-16 12:29:02.372  INFO 19500 --- [activiti-reset-expired-jobs] o.a.e.i.a.ResetExpiredJobsRunnable       : {} stopped resetting expired jobs
+2024-03-16 12:29:02.375  INFO 19500 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2024-03-16 12:29:02.377  INFO 19500 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-03-16 12:29:02.386  INFO 19500 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
