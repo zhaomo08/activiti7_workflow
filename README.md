@@ -13,26 +13,9 @@ Acticiti7工作流引擎
  
 # 启动项目流程
 
-### 1、windows平台获取项目
- > 方案一：（使用GIT命令）
+### 1、获取项目
 
- * [下载GIT](https://git-scm.com/downloads)并安装
- * 新建本地文件夹
- * 选中文件夹右键，输入命令，文件夹变成Git仓库 `git init`
- * 复制慕课git项目地址 `git clone https://git.imooc.com/coding-454/activiti7_workflow.git`
- * 输入慕课网账号密码即可下载
-![Image text](./src/main/resources/static/git_show/0003.png)
-
-
-
- > 方案二：（使用IDEA）
-
- * [下载GIT](https://git-scm.com/downloads)并安装
- * 打开IDEA，【File】->【Settings】->【Version Control】->【Path to Git executable】设置为安装后的git.exe路径
- * 创建IDEA项目，【File】->【New】->【Project from Version Control】->【Git】设置URL`https://git.imooc.com/coding-454/activiti7_workflow.git`
- ![Image text](./src/main/resources/static/git_show/0004.png)
-
-
+ * [gitclone](https://github.com/zhaomo08/activiti7_workflow.git) 下载源码
 
 
 ### 2、修改本地Maven为阿里云
@@ -51,7 +34,6 @@ Acticiti7工作流引擎
  * 保存后重新打开settings.xml确定保存成功
 
 ### 3、修改YML配置文件数据库连接
-> 没有安装过数据库的小伙伴也不要紧张，课程会带领大家安装与配置数据库
 
  * 打开项目文件src\main\resources\application.yml
  * datasource节点配置username、password、url为自己的数据库配置信息，本项目默认使用MySQL数据库
